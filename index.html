@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Digital Image Processing</title>
+        <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Digital Image Processing</h1>
+    </div>
+
+    <div id="playground">
+        <img src="./demo.jpg" id="raw_img">
+
+        <input type="file" id="img_uploader" />
+
+        <button type="button" class="btn" id="clear_btn">Clear</button>
+        <button type="button" class="btn" id="invert_btn">Invert</button>
+
+        <canvas id="processed_canvas"></canvas>
+        
+    </div>
+    
+    <div class="footer"></div>
+    
+    <script src="./index.js"></script>
+</body>
